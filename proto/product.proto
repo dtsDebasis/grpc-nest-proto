@@ -8,7 +8,7 @@ service ProductService {
   rpc DecreaseStock (DecreaseStockRequest) returns (DecreaseStockResponse) {}
 }
 
-// CreateProduct
+// CreateProduct Test
 
 message CreateProductRequest {
   string name = 1;
